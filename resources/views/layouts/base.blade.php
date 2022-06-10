@@ -12,6 +12,8 @@
     <main>
         @yield('mainContent')
     </main>
-    @include('partials.footer')
+    @include('partials.upFooter',['upfooter'=>$upfooter])
+  
+
 </body>
 </html>

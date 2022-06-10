@@ -1,4 +1,4 @@
-@extends('layouts.base', ['headerItems'=>$headerItems] )
+@extends('layouts.base', ['headerItems'=>$headerItems, 'upfooter'=>$upfooter])
 
 @section('pageTitle')
     DcComics - Home

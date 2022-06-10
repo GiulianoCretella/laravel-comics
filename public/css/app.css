@@ -107,3 +107,34 @@ header .header-container nav ul li a {
 header .header-container .selected {
   border-bottom: 4px solid #0582F9;
 }
+
+div.up-footer {
+  background-color: #0582F9;
+}
+div.up-footer .card-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 10px 0;
+}
+div.up-footer .card-container ul {
+  display: flex;
+}
+div.up-footer .card-container ul li {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  list-style-type: none;
+  width: 20%;
+}
+div.up-footer .card-container ul li img {
+  max-width: 30px;
+}
+div.up-footer .card-container ul li span {
+  color: white;
+  font-size: 0.6em;
+  margin-left: 5px;
+  text-transform: uppercase;
+}

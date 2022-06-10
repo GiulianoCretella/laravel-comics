@@ -1,0 +1,30 @@
+div.up-footer{
+    background-color:#0582F9;
+    .card-container{
+        width: 70%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 10px 0;
+        ul{
+           display: flex;
+           li{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+               padding:15px;
+               list-style-type: none;
+               width: calc(100% / 5);
+               img{
+                   max-width: 30px;
+               }
+               span{
+                   color: white;
+                   font-size: 0.6em;
+                   margin-left: 5px;
+                   text-transform: uppercase;
+               }
+           }
+        }
+    }
+}

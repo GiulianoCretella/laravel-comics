@@ -16,10 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $headerItems= config('header');
     $comics = config('comics');
-    return view('home',['comics'=>$comics],['headerItems'=>$headerItems]);
+    $upfooter = config('upfooter');
+    return view('home',['comics'=>$comics, 'headerItems'=>$headerItems, 'upfooter'=>$upfooter]);
 })->name('home');
 Route::get('/singleComic', function () {
     $headerItems= config('header');
-    return view('singleComic',['headerItems'=>$headerItems]);
+    $upfooter = config('upfooter');
+    return view('singleComic',['headerItems'=>$headerItems,'upfooter'=>$upfooter]);
 })->name('singleComic');
 
