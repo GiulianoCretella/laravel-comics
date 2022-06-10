@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $headerItems= config('header');
+    $comics = config('comics');
+    return view('home',['comics'=>$comics],['headerItems'=>$headerItems]);
 })->name('home');
-Route::get('singleComic', function () {
-    return view('singleComic');
+Route::get('/singleComic', function () {
+    $headerItems= config('header');
+    return view('singleComic',['headerItems'=>$headerItems]);
 })->name('singleComic');
+

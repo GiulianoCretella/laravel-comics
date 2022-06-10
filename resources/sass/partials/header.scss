@@ -1,0 +1,50 @@
+header{
+    background-color: white;
+    .header-container{
+        height: 80px;
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        .logo_container{
+            flex: 0 1 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+            img{
+                max-width: 60px;
+                object-fit: contain;
+            }
+        }
+        nav{
+            flex: 0 1 60%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            align-content: center;
+            ul{
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+            li{
+                list-style-type:none;
+                padding:0 10px;
+                font-size: 0.7em;
+                font-weight: bolder;
+                line-height: 76px;
+                border-bottom: 4px solid white;
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color:#1C1C1C ;
+
+                }
+            }
+            }
+        }
+        .selected{
+            border-bottom: 4px solid #0582F9 ;
+        }
+    }
+}

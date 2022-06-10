@@ -1,11 +1,15 @@
 <header>
-    sono l'header
-    <nav>
-        e questa è la mia navbar
-        <ul>
-            <li><a href="{{route('home')}}">Home</a></li>
-            <li><a href="{{route('singleComic')}}">Prodotti</a></li>
-        </ul>
         
-    </nav>
+    <div class="header-container">
+            <div class="logo_container">
+                <img src="../img/dc-logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    @foreach ($headerItems as $item)
+                        <li><a href="">{{$item}}</a></li>
+                    @endforeach
+                </ul>
+            </nav>
+        </div>
 </header>
