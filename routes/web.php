@@ -17,7 +17,8 @@ Route::get('/', function () {
     $headerItems= config('header');
     $comics = config('comics');
     $upfooter = config('upfooter');
-    return view('home',['comics'=>$comics, 'headerItems'=>$headerItems, 'upfooter'=>$upfooter]);
+    $centralFooter = config('centralFooter');
+    return view('home',['comics'=>$comics, 'headerItems'=>$headerItems, 'upfooter'=>$upfooter, 'centralFooter'=>$centralFooter]);
 })->name('home');
 Route::get('/singleComic', function () {
     $headerItems= config('header');

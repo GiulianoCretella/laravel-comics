@@ -13,6 +13,8 @@
         @yield('mainContent')
     </main>
     @include('partials.upFooter',['upfooter'=>$upfooter])
+    @include('partials.centralFooter',['centralFooter'=>$centralFooter])
+
   
 
 </body>
