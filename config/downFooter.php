@@ -1,0 +1,29 @@
+<?php
+return[
+    [
+        'nome'=>'facebook',
+        'link'=>'',
+        'immagine'=>'../img/footer-facebook.png'
+    ],
+    [
+        'nome'=>'twitter',
+        'link'=>'',
+        'immagine'=>'../img/footer-twitter.png'
+    ],
+    [
+        'nome'=>'youtube',
+        'link'=>'',
+        'immagine'=>'../img/footer-youtube.png'
+    ],
+    [
+        'nome'=>'pinterest',
+        'link'=>'',
+        'immagine'=>'../img/footer-pinterest.png'
+    ],
+    [
+        'nome'=>'periscope',
+        'link'=>'',
+        'immagine'=>'../img/footer-periscope.png'
+    ]
+] 
+?>

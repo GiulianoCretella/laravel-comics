@@ -18,11 +18,14 @@ Route::get('/', function () {
     $comics = config('comics');
     $upfooter = config('upfooter');
     $centralFooter = config('centralFooter');
-    return view('home',['comics'=>$comics, 'headerItems'=>$headerItems, 'upfooter'=>$upfooter, 'centralFooter'=>$centralFooter]);
+    $downFooter = config('downFooter');
+    return view('home',['comics'=>$comics, 'headerItems'=>$headerItems, 'upfooter'=>$upfooter, 'centralFooter'=>$centralFooter,'downFooter'=>$downFooter]);
 })->name('home');
 Route::get('/singleComic', function () {
     $headerItems= config('header');
     $upfooter = config('upfooter');
-    return view('singleComic',['headerItems'=>$headerItems,'upfooter'=>$upfooter]);
+    $centralFooter = config('centralFooter');
+    $downFooter = config('downFooter');
+    return view('singleComic',['headerItems'=>$headerItems,'upfooter'=>$upfooter,'centralFooter'=>$centralFooter,'downFooter'=>$downFooter]);
 })->name('singleComic');
 

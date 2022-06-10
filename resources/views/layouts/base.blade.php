@@ -14,6 +14,9 @@
     </main>
     @include('partials.upFooter',['upfooter'=>$upfooter])
     @include('partials.centralFooter',['centralFooter'=>$centralFooter])
+    @include('partials.downFooter',['downFooter'=>$downFooter])
+
+
 
   
 

@@ -185,3 +185,45 @@ div.up-footer .card-container ul li span {
   overflow: hidden;
   height: 100%;
 }
+
+.down-footer {
+  padding: 10px;
+  background-color: #303030;
+}
+.down-footer .container-down-footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.down-footer .container-down-footer span {
+  border: 1px solid #0582F9;
+  padding: 5px;
+  font-size: 0.7em;
+  color: white;
+}
+.down-footer .container-down-footer .contacts {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.down-footer .container-down-footer .contacts span {
+  color: #0582F9;
+  font-weight: bold;
+  border: none;
+  font-size: 1em;
+}
+.down-footer .container-down-footer .contacts ul {
+  padding-left: 10px;
+  display: flex;
+}
+.down-footer .container-down-footer .contacts ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.down-footer .container-down-footer .contacts ul li img {
+  max-width: 25px;
+}
